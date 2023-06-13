@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <script defer src=".\fetchAPI.js"></script>
+    <title> GrassWebsite </title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">The <i>"grass"</i> computer system!</h1>
+    <div class="divupgraded" id="text"></div>
+    <div style="text-align: center;">
+        <p> Use these <i>buttons</i> to control it! *</p>
+        <div class="container">
+            <button class="button" onclick="GetAllUsers()"> Get all users</button>
+            <button class="button" onclick="GetSpecificUser()"> Get specific user</button>
+            <button class="button" onclick="GetUserJobForAll()"> Get all jobs</button>
+            <button class="button" onclick="GetUserJobForSpecific()"> Get job for specific user</button>
+            <button class="button" onclick="GetJobInfo()"> Get job info for a specific job</button>
+            <button class="button" onclick="AddJob()">Add a job!</button>
+            <button class="button" onclick="UpdateBalance()"> Update balance</button>
+            <button class="button" onclick="WithdrawBalance()"> Withdraw balance</button>
+        </div>    
+        <br>
+        <br>
+        <p> <i>* One might need to reload the info for it to show</i></p>    
+    </div>
+</body>
+
+</html>
